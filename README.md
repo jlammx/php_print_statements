@@ -4,14 +4,14 @@ In PHP there are various methods to print data. PHP provides more functions and 
 For example, the print() and echo() statements print string data, whereas, the print_r() is used to print compound datatype-like arrays or objects.
 
 
+## PHP Functions used for Printing Data
 
-### PHP Functions used for Printing Data
+### print() statement
 
-**print()** – The print() is used to create a PHP print statement to print given data to the browser. It accepts single data and prints it on the browser.
+The print() is used to create a PHP print statement to print given data to the browser. It accepts single data and prints it on the browser.
 
 It is a PHP language construct and not a function. So, we can use ‘print’ without parenthesis for creating a print statement. The code shows an example for using print with and without parenthesis where both will print the same data.
 
-print() statement
 ```php
 <?php
     print "Apple";
@@ -20,10 +20,12 @@ print() statement
 ?>
 ```
 <p align="left">
-	<img src="./assets/screenshots/2023-03-07_01_SS.png" alt="print()" width="200"/>
+	<img src="./assets/screenshots/2023-03-07_01_SS.png" alt="print()" width="170"/>
 </p>
 
-echo() statement
+
+### echo() statement
+
 ```php
 <?php
     echo "Apple";
@@ -37,12 +39,14 @@ echo() statement
 ?>
 ```
 <p align="left">
-	<img src="./assets/screenshots/2023-03-07_02_SS.png" alt="echo()" width="200"/>
+	<img src="./assets/screenshots/2023-03-07_02_SS.png" alt="echo()" width="170"/>
 </p>
 
-**printf(string_format, values)** – This method is used to print the formatted output by using the values passed as the parameter of this function. So, this function accepts the output string format and the values to be added.
 
-printf() statement
+### printf(string_format, values) statement
+
+This method is used to print the formatted output by using the values passed as the parameter of this function. So, this function accepts the output string format and the values to be added.
+
 ```php
 <?php
     printf('We are expected to score above %d%% for distinction', 85);
@@ -51,15 +55,19 @@ printf() statement
 ?>
 ```
 <p align="left">
-	<img src="./assets/screenshots/2023-03-07_03_SS.png" alt="printf()" width="280"/>
+	<img src="./assets/screenshots/2023-03-07_03_SS.png" alt="printf()" width="230"/>
 </p>
 
-**sprintf()** – This is similar to the printf() function except that it can return the formatted string instead of printing it to the browser. Then we can store it into a variable.
+
+### sprintf() statement
+
+This is similar to the printf() function except that it can return the formatted string instead of printing it to the browser. Then we can store it into a variable.
 
 
-**print_r()** – This function is used to print the compound data like PHP array or objects.
+### print_r() statement
 
-print_r() statement
+This function is used to print the compound data like PHP array or objects.
+
 ```php
 <?php
     print_r($_FILES); // returns array
@@ -67,12 +75,13 @@ print_r() statement
 ?>
 ```
 <p align="left">
-	<img src="./assets/screenshots/2023-03-07_04_SS.png" alt="print_r()" width="220"/>
+	<img src="./assets/screenshots/2023-03-07_04_SS.png" alt="print_r()" width="180"/>
 </p>
 
-**var_dump()** – var_dump() also prints array data in structured manner. It gives additional data, like, the data type, the length, values and more.
 
-var_dump() statement
+### var_dump() statement
+var_dump() also prints array data in structured manner. It gives additional data, like, the data type, the length, values and more.
+
 ```php
 <?php
     var_dump(false); // prints bool(false)
@@ -80,7 +89,7 @@ var_dump() statement
 ?>
 ```
 <p align="left">
-	<img src="./assets/screenshots/2023-03-07_05_SS.png" alt="var_dump()" width="250"/>
+	<img src="./assets/screenshots/2023-03-07_05_SS.png" alt="var_dump()" width="210"/>
 </p>
 
 
