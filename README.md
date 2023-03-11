@@ -1,10 +1,18 @@
-# PHP | Print Statements
+# PHP | Print statements
+
+This is an example of many forms that print statements.
+
+Deployed by **[jlammx](https://github.com/jlammx)**
+- 🚀 Live: [View deployment](http://demo.pagos.cafisa.org/php_print_statements)
+
+<br/>
+
 In PHP there are various methods to print data. PHP provides more functions and language constructs for printing various data types. These functions are varied on the data format printed on the browser using them.
 
 For example, the print() and echo() statements print string data, whereas, the print_r() is used to print compound datatype-like arrays or objects.
 
 
-## PHP Functions used for Printing Data
+## PHP Functions used for printing data
 
 ### print() statement
 
@@ -111,4 +119,4 @@ var_dump() also prints array data in structured manner. It gives additional data
 	</div>
 </p>
 
-<p align="center"> Last updated at 07 Mar 2023</p>
+<p align="center"> Last updated at 10 Mar 2023</p>
